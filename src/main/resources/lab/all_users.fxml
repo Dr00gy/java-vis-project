@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.AllUsersController" prefHeight="600" prefWidth="800">
+    <Label text="User Database" layoutX="320" layoutY="20" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <ListView fx:id="listView" layoutX="50" layoutY="60" prefWidth="700" prefHeight="400" />
+    
+    <HBox spacing="10" layoutX="325" layoutY="480">
+        <Button text="Previous" onAction="#handlePreviousPage" />
+        <Button text="Next" onAction="#handleNextPage" />
+    </HBox>
+
+    <Button text="Go Back" layoutX="355" layoutY="510" onAction="#handleGoBack" />
+</AnchorPane>

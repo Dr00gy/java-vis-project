@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.AnimalController" prefHeight="700" prefWidth="600">
+    <Label text="Add Animal to Database" layoutX="250" layoutY="10" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+    
+    <GridPane alignment="center" hgap="20" vgap="15" layoutY="50" layoutX="50">
+        <columnConstraints>
+            <ColumnConstraints prefWidth="250"/>
+            <ColumnConstraints prefWidth="250"/>
+        </columnConstraints>
+        
+        <!-- Column 1 -->
+        <Label text="Pavilion:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="pavilionField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        
+        <Label text="Name:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="nameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        
+        <Label text="Date of Birth:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <DatePicker fx:id="dateOfBirthPicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        
+        <Label text="Sex (Male: true / Female: false):" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <CheckBox fx:id="sexField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        
+        <Label text="Domain:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <TextField fx:id="domainField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+        
+        <Label text="Phylum:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+        <TextField fx:id="phylumField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+        
+        <Label text="Kingdom:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+        <TextField fx:id="kingdomField" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+        
+        <!-- Column 2 -->
+        <Label text="Order:" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+        <TextField fx:id="orderField" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+        
+        <Label text="Suborder:" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+        <TextField fx:id="suborderField" GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+        
+        <Label text="Family:" GridPane.rowIndex="9" GridPane.columnIndex="0"/>
+        <TextField fx:id="familyField" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+        
+        <Label text="Genus:" GridPane.rowIndex="10" GridPane.columnIndex="0"/>
+        <TextField fx:id="genusField" GridPane.rowIndex="10" GridPane.columnIndex="1"/>
+        
+        <Label text="Species:" GridPane.rowIndex="11" GridPane.columnIndex="0"/>
+        <TextField fx:id="speciesField" GridPane.rowIndex="11" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <Button text="Submit" layoutX="350" layoutY="550" onAction="#handleSubmit" />
+    <Button text="Go Back" layoutX="350" layoutY="580" onAction="#handleGoBack" />
+</AnchorPane>

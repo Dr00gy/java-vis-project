@@ -1,0 +1,50 @@
+{
+    "food_reactions": [
+      {
+        "weight_loss": true,
+        "weight_gain": false,
+        "digestion_problem": true,
+        "vomit": false,
+        "allergy": true,
+        "bleeding": false,
+        "cured": false
+      },
+      {
+        "weight_loss": false,
+        "weight_gain": true,
+        "digestion_problem": false,
+        "vomit": true,
+        "allergy": false,
+        "bleeding": false,
+        "cured": false
+      },
+      {
+        "weight_loss": false,
+        "weight_gain": false,
+        "digestion_problem": true,
+        "vomit": true,
+        "allergy": true,
+        "bleeding": false,
+        "cured": true
+      },
+      {
+        "weight_loss": true,
+        "weight_gain": false,
+        "digestion_problem": false,
+        "vomit": false,
+        "allergy": false,
+        "bleeding": true,
+        "cured": false
+      },
+      {
+        "weight_loss": false,
+        "weight_gain": true,
+        "digestion_problem": true,
+        "vomit": true,
+        "allergy": true,
+        "bleeding": false,
+        "cured": false
+      }
+    ]
+  }
+  

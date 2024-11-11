@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.UserDetailsController" prefHeight="600" prefWidth="800">
+    <Label text="User Details" layoutX="220" layoutY="20" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <Label text="First Name:" layoutX="50" layoutY="70"/>
+    <Label fx:id="nameLabel" layoutX="150" layoutY="70"/>
+
+    <Label text="Surname:" layoutX="50" layoutY="110"/>
+    <Label fx:id="surnameLabel" layoutX="150" layoutY="110"/>
+
+    <Label text="Degree Before:" layoutX="50" layoutY="150"/>
+    <Label fx:id="degBeforeLabel" layoutX="150" layoutY="150"/>
+
+    <Label text="Degree After:" layoutX="50" layoutY="190"/>
+    <Label fx:id="degAfterLabel" layoutX="150" layoutY="190"/>
+
+    <Label text="Date of Birth:" layoutX="50" layoutY="230"/>
+    <Label fx:id="dobLabel" layoutX="150" layoutY="230"/>
+
+    <Label text="Email:" layoutX="50" layoutY="270"/>
+    <Label fx:id="emailLabel" layoutX="150" layoutY="270"/>
+
+    <Label text="Phone Number:" layoutX="50" layoutY="310"/>
+    <Label fx:id="phoneNumLabel" layoutX="150" layoutY="310"/>
+
+    <Label text="Salary:" layoutX="50" layoutY="350"/>
+    <Label fx:id="salaryLabel" layoutX="150" layoutY="350"/>
+
+    <Label text="Address:" layoutX="50" layoutY="390"/>
+    <Label fx:id="addressLabel" layoutX="150" layoutY="390"/>
+
+    <Label text="User ID:" layoutX="50" layoutY="430"/>
+    <Label fx:id="userIdLabel" layoutX="150" layoutY="430"/>
+
+    <Label text="Encrypted Password:" layoutX="50" layoutY="470"/>
+    <Label fx:id="encryptedPasswdLabel" layoutX="150" layoutY="470"/>
+
+    <Label text="Contract Begin:" layoutX="50" layoutY="510"/>
+    <Label fx:id="contractBeginLabel" layoutX="150" layoutY="510"/>
+
+    <Label text="Contract End:" layoutX="50" layoutY="550"/>
+    <Label fx:id="contractEndLabel" layoutX="150" layoutY="550"/>
+
+    <Button text="Close" layoutX="265" layoutY="720" onAction="#handleClose"/>
+</AnchorPane>

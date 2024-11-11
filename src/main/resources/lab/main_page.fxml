@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.MainPageController" prefHeight="600" prefWidth="800">
+    <Label text="Main Menu" layoutX="330" layoutY="50" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+    
+    <VBox alignment="CENTER" spacing="20" layoutY="200" layoutX="310">
+        <Button text="Add an animal" onAction="#handleOpenAnimalForm" />
+        <Button text="View animal database" onAction="#handleOpenAnimalDatabase" />
+        <!-- NOTE: to be polished -->
+        <Button text="Create a feeding schedule" onAction="#handleOpenFeedingSchedule" />
+        <Button text="Create a health document" onAction="#handleOpenHealthDocument" />
+        <Button text="View user database" onAction="#handleOpenUserDatabase" />
+    </VBox>
+</AnchorPane>

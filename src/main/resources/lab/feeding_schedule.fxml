@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.FeedingScheduleController" prefHeight="800" prefWidth="800">
+    <Label text="Feeding Schedule" layoutX="320" layoutY="20" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+    
+    <ListView fx:id="scheduleListView" layoutX="50" layoutY="70" prefHeight="300" prefWidth="700"/>
+
+    <VBox alignment="CENTER" spacing="10" layoutX="200" layoutY="400">
+        <Label text="Hour:"/>
+        <TextField fx:id="hourField" promptText="Enter hour (0-23)"/>
+        
+        <Label text="Minute:"/>
+        <TextField fx:id="minuteField" promptText="Enter minute (0-59)"/>
+        
+        <Label text="Frequency:"/>
+        <TextField fx:id="frequencyField" promptText="Enter frequency (e.g., daily)"/>
+        
+        <Label text="Meal Type:"/>
+        <TextField fx:id="mealTypeField" promptText="Enter meal type (e.g., breakfast, lunch, dinner)"/>
+        
+        <HBox spacing="10">
+            <Button text="Add Schedule" onAction="#addSchedule"/>
+            <Button text="Update Schedule" onAction="#updateSchedule"/>
+            <Button text="Delete Schedule" onAction="#deleteSchedule"/>
+        </HBox>
+    </VBox>
+    <Button text="Go Back" layoutX="355" layoutY="720" onAction="#handleGoBack" />
+</AnchorPane>

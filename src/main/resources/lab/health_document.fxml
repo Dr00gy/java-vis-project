@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.HealthDocumentController" prefHeight="800" prefWidth="800">
+    <Label text="Medicine Reactions" layoutX="300" layoutY="20" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <ListView fx:id="reactionListView" layoutX="50" layoutY="70" prefHeight="300" prefWidth="700"/>
+
+    <HBox alignment="CENTER" spacing="20" layoutX="50" layoutY="400" prefWidth="700">
+        <VBox alignment="TOP_LEFT" spacing="10">
+            <Label text="Weight Loss:"/>
+            <CheckBox fx:id="weightLossCheckBox"/>
+            
+            <Label text="Weight Gain:"/>
+            <CheckBox fx:id="weightGainCheckBox"/>
+            
+            <Label text="Digestion Problem:"/>
+            <CheckBox fx:id="digestionProblemCheckBox"/>
+            
+            <Label text="Vomit:"/>
+            <CheckBox fx:id="vomitCheckBox"/>
+        </VBox>
+
+        <VBox alignment="TOP_LEFT" spacing="10">
+            <Label text="Allergy:"/>
+            <CheckBox fx:id="allergyCheckBox"/>
+            
+            <Label text="Bleeding:"/>
+            <CheckBox fx:id="bleedingCheckBox"/>
+            
+            <Label text="Cured:"/>
+            <CheckBox fx:id="curedCheckBox"/>
+        </VBox>
+    </HBox>
+
+    <HBox spacing="10" layoutX="200" layoutY="680">
+        <Button text="Add Reaction" onAction="#addReaction"/>
+        <Button text="Update Reaction" onAction="#updateReaction"/>
+        <Button text="Delete Reaction" onAction="#deleteReaction"/>
+    </HBox>
+    <Button text="Go Back" layoutX="355" layoutY="720" onAction="#handleGoBack" />
+</AnchorPane>

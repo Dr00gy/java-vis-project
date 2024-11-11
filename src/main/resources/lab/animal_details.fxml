@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="lab.FE.AnimalDetailsController" prefHeight="600" prefWidth="800">
+    <Label text="Animal Details" layoutX="220" layoutY="20" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <Label text="Name:" layoutX="50" layoutY="70"/>
+    <Label fx:id="nameLabel" layoutX="150" layoutY="70"/>
+    
+    <Label text="Species:" layoutX="50" layoutY="110"/>
+    <Label fx:id="speciesLabel" layoutX="150" layoutY="110"/>
+    
+    <Label text="Pavilion:" layoutX="50" layoutY="150"/>
+    <Label fx:id="pavilionLabel" layoutX="150" layoutY="150"/>
+    
+    <Label text="Date of Birth:" layoutX="50" layoutY="190"/>
+    <Label fx:id="dobLabel" layoutX="150" layoutY="190"/>
+
+    <Label text="Sex:" layoutX="50" layoutY="230"/>
+    <Label fx:id="sexLabel" layoutX="150" layoutY="230"/>
+    
+    <Label text="Parent One:" layoutX="50" layoutY="270"/>
+    <Label fx:id="parentOneLabel" layoutX="150" layoutY="270"/>
+    
+    <Label text="Parent Two:" layoutX="50" layoutY="310"/>
+    <Label fx:id="parentTwoLabel" layoutX="150" layoutY="310"/>
+    
+    <Label text="Domain:" layoutX="50" layoutY="350"/>
+    <Label fx:id="domainLabel" layoutX="150" layoutY="350"/>
+
+    <Label text="Phylum:" layoutX="50" layoutY="390"/>
+    <Label fx:id="phylumLabel" layoutX="150" layoutY="390"/>
+
+    <Label text="Kingdom:" layoutX="50" layoutY="430"/>
+    <Label fx:id="kingdomLabel" layoutX="150" layoutY="430"/>
+
+    <Label text="Order:" layoutX="50" layoutY="470"/>
+    <Label fx:id="orderLabel" layoutX="150" layoutY="470"/>
+
+    <Label text="Suborder:" layoutX="50" layoutY="510"/>
+    <Label fx:id="suborderLabel" layoutX="150" layoutY="510"/>
+
+    <Label text="Family:" layoutX="50" layoutY="550"/>
+    <Label fx:id="familyLabel" layoutX="150" layoutY="550"/>
+
+    <Label text="Genus:" layoutX="50" layoutY="590"/>
+    <Label fx:id="genusLabel" layoutX="150" layoutY="590"/>
+
+    <Label text="Diet:" layoutX="50" layoutY="630"/>
+    <Label fx:id="dietLabel" layoutX="150" layoutY="630"/>
+
+    <Label text="Habitat:" layoutX="50" layoutY="670"/>
+    <Label fx:id="habitatLabel" layoutX="150" layoutY="670"/>
+
+    <Button text="Close" layoutX="265" layoutY="720" onAction="#handleClose"/>
+</AnchorPane>

@@ -1,0 +1,89 @@
+{
+  "schedules": [
+    {
+      "breakfast": {
+        "timeHour": 8,
+        "timeMin": 30,
+        "frequency": "daily"
+      },
+      "lunch": {
+        "timeHour": 12,
+        "timeMin": 0,
+        "frequency": "daily"
+      },
+      "dinner": {
+        "timeHour": 18,
+        "timeMin": 0,
+        "frequency": "daily"
+      }
+    },
+    {
+      "breakfast": {
+        "timeHour": 7,
+        "timeMin": 45,
+        "frequency": "daily"
+      },
+      "lunch": {
+        "timeHour": 12,
+        "timeMin": 30,
+        "frequency": "daily"
+      },
+      "dinner": {
+        "timeHour": 19,
+        "timeMin": 0,
+        "frequency": "daily"
+      }
+    },
+    {
+      "breakfast": {
+        "timeHour": 9,
+        "timeMin": 0,
+        "frequency": "daily"
+      },
+      "lunch": {
+        "timeHour": 13,
+        "timeMin": 0,
+        "frequency": "daily"
+      },
+      "dinner": {
+        "timeHour": 17,
+        "timeMin": 30,
+        "frequency": "daily"
+      }
+    },
+    {
+      "breakfast": {
+        "timeHour": 8,
+        "timeMin": 15,
+        "frequency": "daily"
+      },
+      "lunch": {
+        "timeHour": 12,
+        "timeMin": 45,
+        "frequency": "daily"
+      },
+      "dinner": {
+        "timeHour": 18,
+        "timeMin": 30,
+        "frequency": "daily"
+      }
+    },
+    {
+      "breakfast": {
+        "timeHour": 7,
+        "timeMin": 30,
+        "frequency": "daily"
+      },
+      "lunch": {
+        "timeHour": 12,
+        "timeMin": 15,
+        "frequency": "daily"
+      },
+      "dinner": {
+        "timeHour": 19,
+        "timeMin": 15,
+        "frequency": "daily"
+      }
+    }
+  ]
+}
